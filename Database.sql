@@ -59,3 +59,9 @@ comment 'visualiso los datos relacionados entre la tabla articulo e ingreso'
 insert into tienda.carrito (id, id_articulo, detalles, precios, articulo, imagenes, total)
 values ('5', '5', 'Los productos que has escogido para comprar y sus precios los podras vizualisar aca mismo',
 		'32.000', 'LIBRO LA METAMORFOSIS BILINGUE', '', '32.000')
+		
+select *
+from tienda.articulo A
+join tienda.carrito C
+on A.id = C.id 
+--'visualiza las relaciones y uniones entre las tablas de articulo y carrito'
