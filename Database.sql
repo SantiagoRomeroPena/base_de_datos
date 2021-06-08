@@ -75,4 +75,8 @@ join tienda.venta V
 on C.id = V.id 
 --'visualiza las uniones entres las tablas cliente y venta'
 
-
+select *
+from tienda.carrito C
+join tienda.venta V
+on C.id = V.id 
+--'visualiza las uniones entres las tablas cliente y venta'
