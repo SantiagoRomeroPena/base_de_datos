@@ -84,4 +84,9 @@ on C.id = V.id
 insert into tienda.detalle_venta (id, id_venta, id_articulo, cantidad, precios, descuentos)
 values('5', '5', '5', '1', '34.000', '5.04')
 
+select *
+from tienda.venta V
+join tienda.detalle_venta D
+on V.id = D.id 
+-- 'visualiza las uniones entre las tablas venta y detalle_venta'
 
