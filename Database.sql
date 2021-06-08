@@ -82,6 +82,6 @@ on C.id = V.id
 --'visualiza las uniones entres las tablas cliente y venta'
 
 insert into tienda.detalle_venta (id, id_venta, id_articulo, cantidad, precios, descuentos)
-values('3', '3', '3', '1', '75.000', '2.04')
+values('4', '4', '4', '1', '75.000', '1.04')
 
 
