@@ -67,4 +67,4 @@ on A.id = C.id
 --'visualiza las relaciones y uniones entre las tablas de articulo y carrito'
 
 insert into tienda.venta (id, id_cliente, id_carrito, tipo_comprobante, serie_comprobante, num_comprobante, fecha, impuesto, total, estado)
-values ('1', '1', '1', 'ingreso', 'ASDEDEE', '102', '12/02/2021', '21.0', '43.770', 'pago')
+values ('2', '2', '2', 'ingreso', 'SDsdfeE', '104', '09/03/2021', '21.0', '95.000', 'pago')
