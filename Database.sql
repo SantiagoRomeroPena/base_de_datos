@@ -29,6 +29,6 @@ join tienda.ingreso_articulo I
 on P.id = I.id 
 
 insert into tienda.categoria (id, nombre, descripcion, estado)
-values ('2', 'Científicos', 'Se caracterizan porque los conceptos, teorías o cualquier otro tema abordado son de carácter científico,
-		contienen información de ciertas disciplinas entre las que se encuentran física, química, biología, medicina, astronomía, ciencias naturales, entre otras.',
+values ('3', 'Didácticos', 'Son elaborados por editoriales especializadas por su difícil confección editorial y técnica, debido a que para su realización se necesita tener en cuenta ciertas características, tales como: 
+		conocimiento de la psicología infantil, cualidades didácticas, dominio del color y de la forma.',
 		'disponible')
