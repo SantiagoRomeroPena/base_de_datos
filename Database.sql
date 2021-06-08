@@ -33,5 +33,5 @@ values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orien
 		'disponible')
 		
 insert into tienda.articulo (id, id_categoria, codigo, nombre, precio_venta, descripcion, imagen, estado)
-values ('4', '4', 'ISBN 123-17-1678-345-0', 'El Arte Contemporáneo en la Educación Artística', '75.000', 'El más largo aprendizaje de todas las artes es aprender a mirar. Jules de Goncourt El principal objetivo de la enseñanza del arte es que los alumnos lleguen a entender los mundos sociales y culturales en los que viven. ',
+values ('5', '5', 'ISBN 543-34-7655-765-0', 'LIBRO LA METAMORFOSIS BILINGUE', '32.000', 'Aprender ingles de la mano de los autores mas importantes de la literatura universal es posible con esta coleccion. Los Clasicos Bilinges contienen el texto en castellano acompaado pagina a pagina por su version en ingles.',
 		'','disponible')
