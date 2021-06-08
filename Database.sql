@@ -8,6 +8,7 @@ select *
 from tienda.cliente C
 join tienda.usuario U
 on U.id = C.id_usuario
+comment 'este join deja visualizar la union entre la tabla cliente y usuario solamente los campos que tienen alguna relacion'
 
 insert into tienda.proveedor (id, nombre, tipo_documento, numero_documento, direccion, telefono, email)
 values ('5', 'Fernando', 'C.C', '1000389343', 'CLL23 sur #23D93', '320312345', 'Fernando01023@gamil.com')
@@ -19,9 +20,14 @@ values ('5', '5', '5', 'ingreso', 'EDASSSDa', '203', '13/12/2021', '40.0', '180.
 select *
 from tienda.usuario U
 left join tienda.ingreso_articulo I
-on U.id = I.id
+on U.id = I.id 
+comment 'deja visualizar todos los campos de las dos tablas relacionadas incluso si un campo no esta relacionado con otro campo'
 
 select *
 from tienda.proveedor P
 join tienda.ingreso_articulo I
-on P.id = I.id
+on P.id = I.id 
+
+insert into tienda.categoria (id, nombre, descripcion, estado)
+values ('1', 'recreativos', 'Aquellos cuyo contenido entretienen y sirven como diversión, los personajes son ficticios y pocas veces se combinan dos o más funciones.
+		No tienen necesidad de aportar conocimientos, debido a que son producto de la creatividad de sus autores.', 'disponible')
