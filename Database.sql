@@ -33,5 +33,5 @@ values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orien
 		'disponible')
 		
 insert into tienda.articulo (id, id_categoria, codigo, nombre, precio_venta, descripcion, imagen, estado)
-values ('1', '1', 'ISBN 923-91-1234-321-0', 'El Juego de Los Detectives 4', '43.766', 'Reta a tu familia o amigos a jugar a los detectives ólo tú sabrás la solución ecopilación de más de 30 casos de intriga que se pueden resolver de forma individual o en grupo.',
+values ('2', '2', 'ISBN 922-91-1123-345-0', 'Algebra Preuniversitaria', '95.000', 'Algebra preuniversitaria presenta aspectos didácticos tan importantes como el contenido mismo. A partir de una preocupación propia de los autores, se organizó el texto para hacerlo ágil y adecuado para los alumnos.',
 		'','disponible')
