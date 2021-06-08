@@ -20,3 +20,8 @@ select *
 from tienda.usuario U
 left join tienda.ingreso_articulo I
 on U.id = I.id
+
+select *
+from tienda.proveedor P
+join tienda.ingreso_articulo I
+on P.id = I.id
