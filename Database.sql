@@ -11,3 +11,7 @@ on U.id = C.id_usuario
 
 insert into tienda.proveedor (id, nombre, tipo_documento, numero_documento, direccion, telefono, email)
 values ('5', 'Fernando', 'C.C', '1000389343', 'CLL23 sur #23D93', '320312345', 'Fernando01023@gamil.com')
+
+
+insert into tienda.ingreso_articulo (id, id_usuario, id_proveedor, tipo_comprobante, serie_comprobante, num_comprobante, fecha, impuesto, total, estado)
+values ('1', '1', '1', 'ingreso', 'CASDAS11', '104', '12/04/2021', '25.0', '200.00', 'pago')
