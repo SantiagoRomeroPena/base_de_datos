@@ -42,4 +42,4 @@ join tienda.articulo A
 on C.id = A.id
 
 insert into tienda.detalle_ingreso (id, id_ingreso, id_articulo, cantidad, precio)
-values ('3', '3', '3', '6', '470.000')
+values ('4', '4', '4', '1', '75.000')
