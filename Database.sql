@@ -35,3 +35,8 @@ values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orien
 insert into tienda.articulo (id, id_categoria, codigo, nombre, precio_venta, descripcion, imagen, estado)
 values ('5', '5', 'ISBN 543-34-7655-765-0', 'LIBRO LA METAMORFOSIS BILINGUE', '32.000', 'Aprender ingles de la mano de los autores mas importantes de la literatura universal es posible con esta coleccion. Los Clasicos Bilinges contienen el texto en castellano acompaado pagina a pagina por su version en ingles.',
 		'','disponible')
+	
+select * 
+from tienda.categoria C
+join tienda.articulo A
+on C.id = A.id
