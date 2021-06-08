@@ -14,4 +14,4 @@ values ('5', 'Fernando', 'C.C', '1000389343', 'CLL23 sur #23D93', '320312345', '
 
 
 insert into tienda.ingreso_articulo (id, id_usuario, id_proveedor, tipo_comprobante, serie_comprobante, num_comprobante, fecha, impuesto, total, estado)
-values ('3', '3', '3', 'ingreso', 'ASDEASDS', '108', '07/09/2021', '25.0', '100.00', 'pago')
+values ('4', '4', '4', 'ingreso', 'AsfesSDF', '201', '18/11/2021', '25.0', '210.00', 'pago')
