@@ -29,5 +29,6 @@ join tienda.ingreso_articulo I
 on P.id = I.id 
 
 insert into tienda.categoria (id, nombre, descripcion, estado)
-values ('1', 'recreativos', 'Aquellos cuyo contenido entretienen y sirven como diversión, los personajes son ficticios y pocas veces se combinan dos o más funciones.
-		No tienen necesidad de aportar conocimientos, debido a que son producto de la creatividad de sus autores.', 'disponible')
+values ('2', 'Científicos', 'Se caracterizan porque los conceptos, teorías o cualquier otro tema abordado son de carácter científico,
+		contienen información de ciertas disciplinas entre las que se encuentran física, química, biología, medicina, astronomía, ciencias naturales, entre otras.',
+		'disponible')
