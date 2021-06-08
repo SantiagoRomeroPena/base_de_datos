@@ -29,6 +29,6 @@ join tienda.ingreso_articulo I
 on P.id = I.id 
 
 insert into tienda.categoria (id, nombre, descripcion, estado)
-values ('3', 'Didácticos', 'Son elaborados por editoriales especializadas por su difícil confección editorial y técnica, debido a que para su realización se necesita tener en cuenta ciertas características, tales como: 
-		conocimiento de la psicología infantil, cualidades didácticas, dominio del color y de la forma.',
+values ('4', 'Artísticos', 'Son obras de arte visual, existen en el mundo físico como una fusión específica, única de forma y contenido, en su mayoría es elaborado por un artista plástico quien es el propio creador,
+		el que diseña, piensa y desarrolla el proyecto. Pueden ser de ejemplar único o de artista seriado.',
 		'disponible')
