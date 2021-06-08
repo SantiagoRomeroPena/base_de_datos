@@ -43,3 +43,11 @@ on C.id = A.id
 
 insert into tienda.detalle_ingreso (id, id_ingreso, id_articulo, cantidad, precio)
 values ('5', '5', '5', '1', '32.000')
+
+select *
+from tienda.ingreso_articulo I
+join tienda.detalle_ingreso D
+on I.id = D.id_ingreso
+comment 'visualiso los datos relacionados entre la tabla articulo e ingreso'
+
+
