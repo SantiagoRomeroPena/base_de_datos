@@ -10,4 +10,4 @@ join tienda.usuario U
 on U.id = C.id_usuario
 
 insert into tienda.proveedor (id, nombre, tipo_documento, numero_documento, direccion, telefono, email)
-values ('2', 'sebastian', 'C.C', '1000123321', 'CLL 23 sur #43D98', '321388324', 'sebasrodriguez@gmail.com')
+values ('3', 'carolina', 'C.C', '23321', 'CLL 24sur #4D98', '321322123', 'carolinadiaz@gmail.com')
