@@ -57,5 +57,5 @@ on A.id = D.id
 comment 'visualiso los datos relacionados entre la tabla articulo e ingreso'
 
 insert into tienda.carrito (id, id_articulo, detalles, precios, articulo, imagenes, total)
-values ('2', '2', 'Los productos que has escogido para comprar y sus precios los podras vizualisar aca mismo',
-		'95.000', 'Algebra Preuniversitaria', '', '95.000')
+values ('3', '3', 'Los productos que has escogido para comprar y sus precios los podras vizualisar aca mismo',
+		'75.000', 'Cuentos cortos para que entiendas tus emociones', '', '75.000')
