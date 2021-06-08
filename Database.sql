@@ -48,6 +48,10 @@ select *
 from tienda.ingreso_articulo I
 join tienda.detalle_ingreso D
 on I.id = D.id_ingreso
+comment 'visualiso los datos relacionados entre la tabla el ingreso de los articulos y los detalles del ingreso')
+
+select * 
+from tienda.articulo A
+join tienda.detalle_ingreso D
+on A.id = D.id 
 comment 'visualiso los datos relacionados entre la tabla articulo e ingreso'
-
-
