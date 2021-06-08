@@ -15,3 +15,8 @@ values ('5', 'Fernando', 'C.C', '1000389343', 'CLL23 sur #23D93', '320312345', '
 
 insert into tienda.ingreso_articulo (id, id_usuario, id_proveedor, tipo_comprobante, serie_comprobante, num_comprobante, fecha, impuesto, total, estado)
 values ('5', '5', '5', 'ingreso', 'EDASSSDa', '203', '13/12/2021', '40.0', '180.00', 'pago')
+
+select *
+from tienda.usuario U
+left join tienda.ingreso_articulo I
+on U.id = I.id
