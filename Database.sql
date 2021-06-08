@@ -90,3 +90,9 @@ join tienda.detalle_venta D
 on V.id = D.id 
 -- 'visualiza las uniones entre las tablas venta y detalle_venta'
 
+select *
+from tienda.articulo A
+join tienda.detalle_venta D
+on A.id = D.id 
+-- 'visualiza las uniones entre las tablas articulo y detalle_venta'
+
