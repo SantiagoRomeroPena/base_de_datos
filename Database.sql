@@ -68,3 +68,11 @@ on A.id = C.id
 
 insert into tienda.venta (id, id_cliente, id_carrito, tipo_comprobante, serie_comprobante, num_comprobante, fecha, impuesto, total, estado)
 values ('5', '5', '5', 'ingreso', 'WERFasd', '118', '23/08/2021', '21.0', '32.000', 'pago')
+
+select *
+from tienda.cliente C
+join tienda.venta V
+on C.id = V.id 
+--'visualiza las uniones entres las tablas cliente y venta'
+
+
