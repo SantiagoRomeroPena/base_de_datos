@@ -33,5 +33,5 @@ values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orien
 		'disponible')
 		
 insert into tienda.articulo (id, id_categoria, codigo, nombre, precio_venta, descripcion, imagen, estado)
-values ('2', '2', 'ISBN 922-91-1123-345-0', 'Algebra Preuniversitaria', '95.000', 'Algebra preuniversitaria presenta aspectos didácticos tan importantes como el contenido mismo. A partir de una preocupación propia de los autores, se organizó el texto para hacerlo ágil y adecuado para los alumnos.',
+values ('3', '3', 'ISBN 923-12-1234-234-0', 'Emoticuentos. Cuentos cortos para que entiendas tus emociones', '75.000', 'Los nueve preciosos cuentos de este libro, ilustrados con mucha ternura, servirán para que los niños disfruten de la lectura y al mismo tiempo aprendan a identificar, reconocer y nombrar todas sus emociones',
 		'','disponible')
