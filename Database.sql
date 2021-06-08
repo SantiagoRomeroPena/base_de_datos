@@ -29,7 +29,9 @@ join tienda.ingreso_articulo I
 on P.id = I.id 
 
 insert into tienda.categoria (id, nombre, descripcion, estado)
-values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orienta al ámbito de la lengua y sus expresiones,
-		a través de la creación de obras literarias con términos y figuras lingüísticas que dan forma a un idioma,
-		tomando usos del momento en el cual el autor viva, y plasmándolos en sus obras.',
+values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orienta al ámbito de la lengua y sus expresiones,  través de la creación de obras literarias con términos y figuras lingüísticas que dan forma a un idioma, omando usos del momento en el cual el autor viva, y plasmándolos en sus obras.',
 		'disponible')
+		
+insert into tienda.articulo (id, id_categoria, codigo, nombre, precio_venta, descripcion, imagen, estado)
+values ('1', '1', 'ISBN 923-91-1234-321-0', 'El Juego de Los Detectives 4', '43.766', 'Reta a tu familia o amigos a jugar a los detectives ólo tú sabrás la solución ecopilación de más de 30 casos de intriga que se pueden resolver de forma individual o en grupo.',
+		'','disponible')
