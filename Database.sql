@@ -29,6 +29,7 @@ join tienda.ingreso_articulo I
 on P.id = I.id 
 
 insert into tienda.categoria (id, nombre, descripcion, estado)
-values ('4', 'Artísticos', 'Son obras de arte visual, existen en el mundo físico como una fusión específica, única de forma y contenido, en su mayoría es elaborado por un artista plástico quien es el propio creador,
-		el que diseña, piensa y desarrolla el proyecto. Pueden ser de ejemplar único o de artista seriado.',
+values ('5', 'Libros literarios y lingüísticos', 'Esta clasificación se orienta al ámbito de la lengua y sus expresiones,
+		a través de la creación de obras literarias con términos y figuras lingüísticas que dan forma a un idioma,
+		tomando usos del momento en el cual el autor viva, y plasmándolos en sus obras.',
 		'disponible')
