@@ -21,7 +21,7 @@ select *
 from tienda.usuario U
 left join tienda.ingreso_articulo I
 on U.id = I.id 
-comment 'deja visualizar todos los campos de las dos tablas relacionadas incluso si un campo no esta relacionado con otro campo'
+-- 'deja visualizar todos los campos de las dos tablas relacionadas incluso si un campo no esta relacionado con otro campo'
 
 select *
 from tienda.proveedor P
@@ -48,13 +48,13 @@ select *
 from tienda.ingreso_articulo I
 join tienda.detalle_ingreso D
 on I.id = D.id_ingreso
-comment 'visualiso los datos relacionados entre la tabla el ingreso de los articulos y los detalles del ingreso')
+-- 'visualiso los datos relacionados entre la tabla el ingreso de los articulos y los detalles del ingreso')
 
 select * 
 from tienda.articulo A
 join tienda.detalle_ingreso D
 on A.id = D.id 
-comment 'visualiso los datos relacionados entre la tabla articulo e ingreso'
+-- 'visualiso los datos relacionados entre la tabla articulo e ingreso'
 
 insert into tienda.carrito (id, id_articulo, detalles, precios, articulo, imagenes, total)
 values ('5', '5', 'Los productos que has escogido para comprar y sus precios los podras vizualisar aca mismo',
@@ -65,3 +65,6 @@ from tienda.articulo A
 join tienda.carrito C
 on A.id = C.id 
 --'visualiza las relaciones y uniones entre las tablas de articulo y carrito'
+
+insert into tienda.venta (id, id_cliente, id_carrito, tipo_comprobante, serie_comprobante, num_comprobante, fecha, impuesto, total, estado)
+values ('1', '1', '1', 'ingreso', 'ASDEDEE', '102', '12/02/2021', '21.0', '43.770', 'pago')
